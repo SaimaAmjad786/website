@@ -1,0 +1,147 @@
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sectiontitle{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 80px;
+    margin-bottom: 100px; 
+    color: red;
+}
+ .headersection{
+    height: 100vh;
+    background-image: url(image3.jfif);
+    background-size: cover;
+    background-position-x: center;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.582);
+    background-attachment: fixed;
+}  
+ .headersection nav {
+    display: flex;
+    color: #ffffff;
+    height: 60px;
+    align-items: center;
+    padding: 20px 50px;
+}
+.headersection .logo {
+    width: 20%;
+    font-weight: bolder;
+    color: white;
+}
+.headersection .anchors {
+    width: 78%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+.headersection .anchors a {
+    color: white;
+    text-decoration: none;
+} 
+
+/* -----------------bannersection----------------------------- */
+ .bannersection{
+     display: flex; 
+     margin-top: 100px; 
+} 
+.bannersection .col1 , .bannersection .col2{
+    width: 49%;
+}
+.bannersection .col1 h1{
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: white;
+}
+.bannersection .col1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+.bannersection .col2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannersection .col2 .img{
+    width: 400px;
+} 
+.paragraph{
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}  
+
+/* --------------------About Section------------------------------------ */
+.aboutsection{
+    margin-top: 40px;
+    padding: 0 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-image: url(image2.jfif);
+    background-size: cover;
+    background-position-x: center -700px;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.582);
+    background-attachment: fixed;
+    color:white;
+}
+/* --------------course Scetion--------------------------- */
+.coursesection{
+    text-align: center;
+     padding-top: 80px; 
+    /* background: linear-gradient(to left,white,grey); */
+    background-image: url(image2.jfif);
+    background-size: cover;
+    background-position-x: center -700px;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.582);
+    background-attachment: fixed;
+    color:white;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+   
+} 
+
+/* ----------------------courses-------------------------------------- */
+.coursesection .course{
+    width:25%;
+    display: inline-block;
+    margin-right:20px 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.856);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.coursesection .course img{
+    width: 100%;
+}
+.coursesection .course h2{
+    text-align: left;
+    margin: 10px 0;
+    color: white;
+} 
+.coursesection .course p{
+    text-align: left;
+    font-size: 14px;
+    color:white;
+    font-weight: bold;
+}
+.coursesection .course button{
+    border: none;
+    background-color: yellow;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.coursesection .course .button{
+    text-align:right;
+    margin: 10px 0;
+}
